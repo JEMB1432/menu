@@ -10,10 +10,17 @@ html{
     scroll-behavior: smooth;
 }
 
-.nav{
+header{
     position: fixed;
     width: 100%;
-    background-color: black;
+}
+
+.main{
+    padding-top: 15%;
+}
+
+.nav{
+    background-color: #232323;
     color: white;
 }
 
@@ -28,4 +35,9 @@ html{
 .nav ul li a{
     text-decoration: underline;
     color: white;
+}
+
+.section{
+    height: 300px;
+    text-align: justify;
 }
