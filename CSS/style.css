@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: underline;
+    color: white;
+}
